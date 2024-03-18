@@ -41,9 +41,7 @@ remotes::install_github("josiahparry/placekey")
 To get the placekey for a place of interest (POI) you will use the
 `get_placekey()` function. To search for a placekey from an address, the
 arguments `street_address`, `city`, `region`, `postal_code`, and
-`iso_country_code` are required. You can optionally provide the argument
-`location_name` and `strict_address_match` as well as
-`strict_name_match`.
+`iso_country_code` are required.
 
 ``` r
 library(placekey)
